@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--listView的item-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_detail"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="left"
+        android:textColor="#DF23"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:paddingRight="10dp"
+        android:textColor="#2300FF"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:textColor="#90F"
+        android:lineSpacingMultiplier="1.5"
+        android:textSize="20sp" />
+</LinearLayout>
+
